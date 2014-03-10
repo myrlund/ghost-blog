@@ -55,6 +55,10 @@ h1 a {
 a {
   color: #f69679;
 }
+code {
+  white-space: pre;
+  overflow-x: scroll;
+}
 header {
   overflow: hidden;
   position: relative;
@@ -81,11 +85,14 @@ header #blogname_wordsmith {
 }
 header #blogname_wordsmith h1 {
   color: #fff;
+  margin-bottom: 0;
+  font-size: 1.6em;
+  opacity: .9;
 }
 header .colorborder_wordsmith {
   display: inline-block;
   height: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   position: relative;
   width: 25%;
 }
@@ -239,7 +246,7 @@ footer #socialshare_wordsmith a {
   }
   #blogname_wordsmith {
     font-size: 1em;
-    margin: 50px 0 10px 0;
+    margin: 55px 0 -30px 0;
   }
 }
 @media screen and (min-width:480px) {
@@ -248,6 +255,10 @@ footer #socialshare_wordsmith a {
   }
   #blogname_wordsmith {
     font-size: 1.4em;
+    margin: 75px 0 -30px 0;
+  }
+  header .colorborder_wordsmith {
+    margin-bottom: 10px;
   }
 }
 @media screen and (min-width:768px) {
@@ -266,7 +277,7 @@ footer #socialshare_wordsmith a {
   }
   #blogname_wordsmith {
     font-size: 1.6em;
-    margin: 80px 0 20px 0;
+    margin: 110px 0 -25px 0;
   }
 }
 @media screen and (min-width:960px) {
@@ -279,7 +290,7 @@ footer #socialshare_wordsmith a {
   }
   #blogname_wordsmith {
     font-size: 2em;
-    margin: 100px 0 30px 0;
+    margin: 190px 0 -20px 0;
   }
 }
 @media screen and (min-width:1280px) {
